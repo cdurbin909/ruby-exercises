@@ -13,7 +13,7 @@ RSpec.describe 'String Exercises' do
   describe 'concatenation exercise' do
 
     it 'returns "Hello world!"' do
-      expect(concatenate('world!')).to eq('Hello world!')
+      expect(concatenate('world')).to eq('Hello world!')
     end
 
     it 'returns "Hello universe!"' do
